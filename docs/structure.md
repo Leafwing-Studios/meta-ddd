@@ -1,4 +1,4 @@
-# Structure of a DDD Project
+# DDD Project Structure
 
 ## Key Uncertainties
 At all times, the team keeps a list of the open questions and problems to be addressed, called **key uncertainties.** These might be things like “we need a system to handle X” or “Y proposal has a problem with it that needs to be addressed”. The team refers back to this list periodically when determining what to write proposals for, and what to discuss during design meetings. The key uncertainties are for information that needs to be discussed, and problems that need proposals written for them. Smaller changes and issues should be managed in the [Issue Tracker]().
