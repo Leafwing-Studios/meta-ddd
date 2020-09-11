@@ -6,3 +6,4 @@
     - [Awakened](character-options/species/awakened.md)
     - [Crystalline](character-options/species/crystalline.md)
 - [Structure of a DDD Project](structure.md)
+- [Key Uncertainties](uncertainties.md)
