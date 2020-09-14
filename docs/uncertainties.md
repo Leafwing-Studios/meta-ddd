@@ -7,5 +7,9 @@
 - How can we communicate that traditional management structures are usually a lot of overhead for little benefit, and that we fix that problem?
 - There are definitely brass jobs without roles that should probably be defined
 - We have the Quartermaster, which role is the battlemaster equivalent?
-- Explicit information on automating away overhead. For example, if you automate testing and data analysis tools, and open them to the team, you don't need the overhead of data scientists and such to run these things for you (only to spit out reports that most people don't even understand).
+- Explicit information on automating away overhead. 
+  - For example, if you automate testing and data analysis tools, and open them to the team, you don't need the overhead of data scientists and manager approval to run these tests (only to spit out reports that most people don't even understand). 
+  - Stitch fix did this and have useful docs
+    - [Multi-Armed Bandits - generalization of A/B testing for reinforcement learning](https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/)
+    - [Automated Experiment API](https://multithreaded.stitchfix.com/blog/2019/07/30/building-centralized-experimental-platform/)
 - Use transparency to remove the need for recursive "whip-cracking" behavior. (Many companies do this to ensure Work Is Done:tm:)
