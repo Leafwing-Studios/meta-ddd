@@ -1,5 +1,6 @@
 - [Introduction](/)
 - [DDD Project Structure](structure.md)
 - [DDD Team Structure](team-structure/)
+  - [The DDD Command Structure](team-structure/brass.md)
   - [Special Roles](team-structure/roles.md)
 - [Key Uncertainties](uncertainties.md)
