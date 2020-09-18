@@ -21,9 +21,9 @@
 
 - Should key uncertainties have UUIDs for reference in external systems? How would we go about this scalably?
 - We need a "I have a piece of information, where does it go?" section. Perhaps the is/ought divide is a useful divider here?
-- Documentation contains "is" statements. What is this system, how does it work, how would it work if things were different?
-- Guidebook contains "ought" statements. What do we want this to be? What goals are we trying to fulfil? What things are we unwilling to accept?
-- The test documentation contains tests and failures. While the documentation and guidebook primarily contain the "what", the test documentation contains the "why" (and sometimes "how"). Why did this system not work? Why do we have X technical constraint in our guidebook? 
+  - Documentation contains "is" statements. What is this system, how does it work, how would it work if things were different?
+  - Guidebook contains "ought" statements. What do we want this to be? What goals are we trying to fulfil? What things are we unwilling to accept?
+  - The test documentation contains tests and failures. While the documentation and guidebook primarily contain the "what", the test documentation contains the "why" (and sometimes "how"). Why did this system not work? Why do we have X technical constraint in our guidebook? 
 - What is the exact structure of the guidebook?
   - How distributed is it?
     - Assimilation is starting to use a {key uncertainties, constraints, desired properties} system for its distributed guidebook. What should we steal from this, and how?
