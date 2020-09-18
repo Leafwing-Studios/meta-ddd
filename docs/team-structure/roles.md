@@ -30,7 +30,7 @@ Alternate names: *Librarian*
 The scribe is a team role with the following responsibilities:
 - Take notes during design meetings:
   - New information for the [Guidebook](/)
-  - Tests, expertise, issues, and refreshed called
+  - Tests, expertise, issues, and refreshed [called](design-meetings?id=design-meeting-actions)
   - Proposals that were accepted or rejected
   - Assignments for which team member is responsible for which activities between meetings
 - The scribe **does not** make all the documentation updates for the team, but they do document assignments for those updates
@@ -57,10 +57,10 @@ The title of **Steward** is awarded to any member who is both the Keeper and the
 The sage is a team role. It is given to team members with considerable knowledge and expertise. This is typically the role given to senior engineers. The sage has the following responsibilities:
 - Step up to take harder projects and problems to solve
 - Answer questions from the crew when they are stuck or think something is wrong
-- Escalate problems if you cannot answer answer questions
+- Escalate problems if you cannot answer questions
 
 ## Crew
 The crew is a team role. It contains all members who do not have any other roles. The crew has the following responsibilities:
-- attend meetings? this might not be worth putting
-- escalate things up
-- ask questions of your sage and keeper when you need to
+- Attend meetings? This might not be worth putting
+- Escalate things up the ladder if you are stuck or think something is wrong
+- Ask questions of your sage and keeper when you need to
