@@ -44,6 +44,7 @@ The keeper is a team role with the following responsibilities:
   - Remind members to call for tests if arguments are long
 - Make sure everything is documented by the scribe (or team for some things), and that called actions are assigned
 - Make sure team members have time to read proposals before design meetings
+- Ensure that the issue tracker and key uncertainties lists are clean and up to date, and that work to be done has been filed into the correct place of the two
 
 <div class="infobox">
 
