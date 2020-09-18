@@ -20,3 +20,6 @@
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
 - Does DDD require aftercare? What would the aftercare format look like?
+- System for documenting tolerances in the guidebook, not just constraints. Constraints : Tolerances :: Lines : Veils
+- Assimilation is starting to use a {key uncertainties, constraints, desired properties} system for its distributed guidebook. What should we steal from this, and how?
+  - Should we add "tolerances" to this little framework?
