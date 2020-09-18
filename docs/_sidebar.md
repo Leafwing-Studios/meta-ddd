@@ -5,4 +5,5 @@
   - [Special Roles](team-structure/roles.md)
 - [Running Design Meetings](design-meetings.md)
 - [How to Write Your Documentation](how-to-documentation.md)
+- [How to Conduct Your Tests](how-to-tests.md)
 - [Key Uncertainties](uncertainties.md)
