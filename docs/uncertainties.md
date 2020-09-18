@@ -19,3 +19,4 @@
   - The test documentation contains tests and failures. While the documentation and guidebook primarily contain the "what", the test documentation contains the "why" (and sometimes "how"). Why did this system not work? Why do we have X technical constraint in our guidebook? 
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
+- Does DDD require aftercare? What would the aftercare format look like?
