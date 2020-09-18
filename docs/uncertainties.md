@@ -24,3 +24,4 @@
 - Assimilation is starting to use a {key uncertainties, constraints, desired properties} system for its distributed guidebook. What should we steal from this, and how?
   - Should we add "tolerances" to this little framework?
 - Should key uncertainties have UUIDs for reference in external systems? How would we go about this scalably?
+- Should we split "desired properties" into "required properties" and "desired properties", or are "required properties" better fit under constraints?
