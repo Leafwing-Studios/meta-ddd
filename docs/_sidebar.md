@@ -4,4 +4,5 @@
   - [The DDD Command Structure](team-structure/brass.md)
   - [Special Roles](team-structure/roles.md)
 - [Running Design Meetings](design-meetings.md)
+- [How to Write Your Documentation](how-to-documentation.md)
 - [Key Uncertainties](uncertainties.md)
