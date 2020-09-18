@@ -13,15 +13,31 @@
     - [Multi-Armed Bandits - generalization of A/B testing for reinforcement learning](https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/)
     - [Automated Experiment API](https://multithreaded.stitchfix.com/blog/2019/07/30/building-centralized-experimental-platform/)
 - Use transparency to remove the need for recursive "whip-cracking" behavior. (Many companies do this to ensure Work Is Done:tm:.) How to make this clear?
-- We need a "I have a piece of information, where does it go?" section
-  - Documentation contains "is" statements. What is this system, how does it work, how would it work if things were different?
-  - Guidebook contains "ought" statements. What do we want this to be? What goals are we trying to fulfil? What things are we unwilling to accept?
-  - The test documentation contains tests and failures. While the documentation and guidebook primarily contain the "what", the test documentation contains the "why" (and sometimes "how"). Why did this system not work? Why do we have X technical constraint in our guidebook? 
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
 - Does DDD require aftercare? What would the aftercare format look like?
-- System for documenting tolerances in the guidebook, not just constraints.
-- Assimilation is starting to use a {key uncertainties, constraints, desired properties} system for its distributed guidebook. What should we steal from this, and how?
-  - Should we add "tolerances" to this little framework?
+
+## Metadata Uncertainties
+
 - Should key uncertainties have UUIDs for reference in external systems? How would we go about this scalably?
-- Should we split "desired properties" into "required properties" and "desired properties", or are "required properties" better fit under constraints?
+- We need a "I have a piece of information, where does it go?" section. Perhaps the is/ought divide is a useful divider here?
+- Documentation contains "is" statements. What is this system, how does it work, how would it work if things were different?
+- Guidebook contains "ought" statements. What do we want this to be? What goals are we trying to fulfil? What things are we unwilling to accept?
+- The test documentation contains tests and failures. While the documentation and guidebook primarily contain the "what", the test documentation contains the "why" (and sometimes "how"). Why did this system not work? Why do we have X technical constraint in our guidebook? 
+- What is the exact structure of the guidebook?
+  - How distributed is it?
+    - Assimilation is starting to use a {key uncertainties, constraints, desired properties} system for its distributed guidebook. What should we steal from this, and how?
+      - Should we add "tolerances" to this little framework?
+  - In addition to the checklists and FAQ, what exactly does it hold?
+  - How is system metadata stored?
+    - Desired properties
+    - Required properties
+    - Constraints
+    - Tolerances
+    - Goals
+    - Uncertainties by system?
+  - Should we split "desired properties" into "required properties" and "desired properties", or are "required properties" better fit under constraints?
+  - Desired properties:
+    - Metadata for individual systems
+    - **Guides:** lists of stuff, similar to what we use for static analysis. This includes things like code best practice, but also things like the fop balance guidelines (4:1 health:essence, essence/turn = prof, etc.)
+    - Sections for less structured information (FAQs, meeting minutes, discussion logs, role assignments)
