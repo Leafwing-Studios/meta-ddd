@@ -6,5 +6,6 @@
   - [Running Design Meetings](project-docs/design-meetings.md)
   - [How to Write Your Documentation](project-docs/how-to-documentation.md)
   - [How to Conduct Your Tests](project-docs/how-to-tests.md)
+  - [The Guidebook](project-docs/guidebook/)
 - [Guidebook](guidebook/)
   - [Key Uncertainties](guidebook/uncertainties.md)
