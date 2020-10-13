@@ -27,6 +27,7 @@
 - Who conducts code review for subassemblies coming into the larger branch/master?
   - No one?
   - The higher team?
+- Should we use the term "system worldbuilding" instead of metadata?
 
 ## Metadata Uncertainties
 
