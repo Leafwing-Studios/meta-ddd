@@ -16,6 +16,17 @@
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
 - Does DDD require aftercare? What would the aftercare format look like?
+- What is the expected audience we are writing this guide for? Other software engineers? Business people? Laypeople?
+- It would be good to have a whole section on automation: it's importance, the general philosophy behind it, how to do it, etc.
+- Somewhere we need to make clear that a **project** contains one or more **teams** which contain several **crew members** and other roles
+- In a multi-team project, which team is responsible for guidebook updates that affect everyone (such as changes to the code style guide)
+  - Handled at the check-in?
+  - Handled by the highest team?
+  - Proposed, then must be accepted by all teams?
+  - Anyone can modify at any time?
+- Who conducts code review for subassemblies coming into the larger branch/master?
+  - No one?
+  - The higher team?
 
 ## Metadata Uncertainties
 
