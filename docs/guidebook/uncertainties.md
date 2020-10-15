@@ -30,17 +30,17 @@
 - Currently, we have 3 "refresh-like" actions (Calling a refresh, the "meta-refresh", and the check-in). How can we better unify these systems?
 - What additional metadata do proposals need? (Special tasks or Refreshes called for on acceptance, Help needed, Justifications?, others?)
 - We need a system to have the Librarian/Scribe/Someone else(?) review the documentation and clean it up.
-- Some key uncertanties are of the form "should we do [thing]?". How do we handle proposals which simly say "no, we should not"
-- Often, when writiing out key uncertanties, they have a few obvious paths forward to investigate. How should these paths be documented? (In key uncertanties in parenthesis, on the proposal's stub)
+- Some key uncertainties are of the form "should we do [thing]?". How do we handle proposals which simply say "no, we should not"
+- Often, when writing out key uncertainties, they have a few obvious paths forward to investigate. How should these paths be documented? (In key uncertainties in parenthesis, on the proposal's stub)
 - Should the automation section be part of the principles, or should it be standalone?
   - Should include that if you automate testing and data analysis tools, and open them to the team, you don't need the overhead of data scientists and manager approval to run these tests (only to spit out reports that most people don't even understand).
 - We should have a place in the DDD system where teams can define their internal reserved words/jargon (ex: "system metadata", "closed loop", etc.)
-- We need some kind of workflow for when someone has an idea that might improve a system, but that isn't inherently tied to a problem or question in the key uncertanties. (Make a "should we..." uncertainty, and then make a proposal for it, Make a proposal without a related uncertainty)
-- We need a system to link proposals to uncertanties
+- We need some kind of workflow for when someone has an idea that might improve a system, but that isn't inherently tied to a problem or question in the key uncertainties. (Make a "should we..." uncertainty, and then make a proposal for it, Make a proposal without a related uncertainty)
+- We need a system to link proposals to uncertainties
 
 ## Uncertainties About The Guidebook Itself
 
-- Should key uncertainties have UUIDs for reference in external systems? How would we go about this scalably?
+- Should key uncertainties have UUIDs for reference in external systems? How would we go about this scalable?
 - We need a "I have a piece of information, where does it go?" section. Perhaps the is/ought divide is a useful divider here?
   - Documentation contains "is" statements. What is this system, how does it work, how would it work if things were different?
   - Guidebook contains "ought" statements. What do we want this to be? What goals are we trying to fulfil? What things are we unwilling to accept?
