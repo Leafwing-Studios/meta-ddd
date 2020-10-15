@@ -107,6 +107,7 @@ Metadata for the metadata documentation system
 - Often, when writing out key uncertainties, they have a few obvious paths forward to investigate. How should these paths be documented? (In key uncertainties in parenthesis, on the proposal's stub)
 - Should key uncertainties have UUIDs for reference in external systems (and in proposals)? How would we go about this scalably?
 - How do we ensure visibility for inherited properties?
+- What are some more examples?
 
 #### Design Constraints
 - Cannot require an external system
