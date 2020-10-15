@@ -8,6 +8,7 @@
   - [How to Write Your Proposals](project-docs/how-to-proposals.md)
   - [How to Conduct Your Tests](project-docs/how-to-tests.md)
   - [The Guidebook](project-docs/guidebook/)
+    - [Metadata](project-docs/guidebook/metadata.md)
   - [The Regular Check-in](project-docs/check-in.md)
 - [Guidebook](guidebook/)
   - [Key Uncertainties](guidebook/uncertainties.md)

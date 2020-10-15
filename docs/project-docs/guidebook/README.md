@@ -1,4 +1,6 @@
-# The Guidebook
+# The Guidebook {stub}
+
+This is the place where things go, that don't really belong anywhere else.
 
 Spitballin:
 - metadata contains
