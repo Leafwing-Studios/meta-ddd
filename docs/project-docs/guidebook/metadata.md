@@ -78,7 +78,7 @@ The **desired properties** of a system are properties that would be nice to have
 ## Tolerances
 *If you can't make it perfect, at least make it adjustable*
 
-**Tolerances** are all about how robust the system is to changes around it. The term comes from engineering, where it is defined as "[the] allowable amount of variation in a specified quantity, especially in the dimensions of a machine or part." In short, tolerances list what variations (in the rest of the project) are acceptable, and which ones are not. As mentioned, there is some overlap between categories, and some tolerances may be defined in the required properties, indicating that the system must be tolerant to certain conditions.
+**Tolerances** are all about how robust the system is to changes around it, defining its range of operation. The term comes from engineering, where it is defined as "[the] allowable amount of variation in a specified quantity, especially in the dimensions of a machine or part." In short, tolerances list which variations (in the rest of the project) are acceptable, and which ones are not. As mentioned, there is some overlap between categories, and some tolerances may be defined in the required properties, indicating that the system must be tolerant to certain conditions.
 
 Some useful questions when trying to find tolerances of a system: 
 - What assumptions does this system make about the rest of the project's structure?
