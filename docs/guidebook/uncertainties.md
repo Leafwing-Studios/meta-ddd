@@ -37,6 +37,7 @@
 - We should have a place in the DDD system where teams can define their internal reserved words/jargon (ex: "system metadata", "closed loop", etc.)
 - We need some kind of workflow for when someone has an idea that might improve a system, but that isn't inherently tied to a problem or question in the key uncertanties. (Make a "should we..." uncertainty, and then make a proposal for it, Make a proposal without a related uncertainty)
 - We need a system to link proposals to uncertanties
+- Many problems often start with some non-trivial requirements gathering. Should we have a system for this?
 
 ## Uncertainties About The Guidebook Itself
 
