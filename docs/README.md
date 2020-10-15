@@ -1,4 +1,5 @@
 # Introduction
+*Created by Rose Peck, with help from Alice I. Cecile*
 
 Document Driven Design (DDD) is an **SDLC** framework that specifies that you **create the documentation before building the software.** Teams begin by doing **rapid prototyping** on their documentation, with different members from different specialties bringing **proposals, constraints,** and **perspectives** to the table. The group provides **honest, critical feedback** to develop, improve, and refine proposals for how individual pieces of the system should work. Once a proposal is accepted, someone from the team must **document precisely** how the feature or system functions. The documentation must be sufficient to later code the functionality with little to no additional information. **Because explaining the function of a system is much cheaper and faster than actually programming it, the team is much more free to remove or change older systems** that no longer work, have bugs that weren't originally caught, or are no longer up to the standards of the team.
 
