@@ -1,35 +1,44 @@
 # Key Uncertainties
-- Who actually reviews the pull request? The Keeper? The Sage? The Scribe?
+- Pull request review
+  - Who reviews normal team pull requests? (Keeper, Sage, Scribe, literally anyone)
+  - Who reviews pull requests for subassemblies coming into a larger branch/assembly?
+  - Who reviews pull requests for systems/assemblies coming into master?
 - What is the exact framework for test documentation?
-- Issue tracking structure needs to be fleshed out
-- Examples for team structure section?
-- How can we make it more clear that the DDD teams are autonomous and don't need or have traditional management oversight?
-- How can we communicate that traditional management structures are usually a lot of overhead for little benefit, and that we fix that problem?
-- There are definitely brass jobs without roles that should probably be defined
-- We have the Quartermaster, which role is the battlemaster equivalent?
-- Explicit information on automating away overhead. 
-  - For example, if you automate testing and data analysis tools, and open them to the team, you don't need the overhead of data scientists and manager approval to run these tests (only to spit out reports that most people don't even understand). 
-  - Stitch fix did this and have useful docs
-    - [Multi-Armed Bandits - generalization of A/B testing for reinforcement learning](https://multithreaded.stitchfix.com/blog/2020/08/05/bandits/)
-    - [Automated Experiment API](https://multithreaded.stitchfix.com/blog/2019/07/30/building-centralized-experimental-platform/)
+- What is the framework for the issue tracker? 
+  - What information does it need to have?
+  - How does it integrate with system metadata?
+- Does the section on team structure need an example?
+  - Should that be inline, or in the supplemental repo?
+- The team structure section isn't very clear that DDD teams are autonomous and don't need or have traditional management oversight
+- We want to communicate that traditional management structures are usually a lot of overhead for little benefit
+- Are there any other Brass roles we should define?
+  - Battlemaster equivalent? (Since we have the Quartermaster)
 - Use transparency to remove the need for recursive "whip-cracking" behavior. (Many companies do this to ensure Work Is Done:tm:.) How to make this clear?
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
-- Does DDD require aftercare? What would the aftercare format look like?
+- System for performing aftercare (to help with difficult design discussions). Do we even need this?
 - What is the expected audience we are writing this guide for? Other software engineers? Business people? Laypeople?
-- It would be good to have a whole section on automation: it's importance, the general philosophy behind it, how to do it, etc.
 - Somewhere we need to make clear that a **project** contains one or more **teams** which contain several **crew members** and other roles
 - In a multi-team project, which team is responsible for guidebook updates that affect everyone (such as changes to the code style guide)
   - Handled at the check-in?
   - Handled by the highest team?
   - Proposed, then must be accepted by all teams?
   - Anyone can modify at any time?
-- Who conducts code review for subassemblies coming into the larger branch/master?
-  - No one?
-  - The higher team?
 - Should we use the term "system worldbuilding" instead of metadata?
+- Projects will occasionally call in freelance work, because of skill holes in their team. What framework should we provide for this? Should we provide any?
+- Should we have a mascot? Like the rust crab
+- Currently, we have 3 "refresh-like" actions (Calling a refresh, the "meta-refresh", and the check-in). How can we better unify these systems?
+- What additional metadata do proposals need? (Special tasks or Refreshes called for on acceptance, Help needed, Justifications?, others?)
+- We need a system to have the Librarian/Scribe/Someone else(?) review the documentation and clean it up.
+- Some key uncertanties are of the form "should we do [thing]?". How do we handle proposals which simly say "no, we should not"
+- Often, when writiing out key uncertanties, they have a few obvious paths forward to investigate. How should these paths be documented? (In key uncertanties in parenthesis, on the proposal's stub)
+- Should the automation section be part of the principles, or should it be standalone?
+  - Should include that if you automate testing and data analysis tools, and open them to the team, you don't need the overhead of data scientists and manager approval to run these tests (only to spit out reports that most people don't even understand).
+- We should have a place in the DDD system where teams can define their internal reserved words/jargon (ex: "system metadata", "closed loop", etc.)
+- We need some kind of workflow for when someone has an idea that might improve a system, but that isn't inherently tied to a problem or question in the key uncertanties. (Make a "should we..." uncertainty, and then make a proposal for it, Make a proposal without a related uncertainty)
+- We need a system to link proposals to uncertanties
 
-## Metadata Uncertainties
+## Uncertainties About The Guidebook Itself
 
 - Should key uncertainties have UUIDs for reference in external systems? How would we go about this scalably?
 - We need a "I have a piece of information, where does it go?" section. Perhaps the is/ought divide is a useful divider here?
@@ -38,10 +47,8 @@
   - The test documentation contains tests and failures. While the documentation and guidebook primarily contain the "what", the test documentation contains the "why" (and sometimes "how"). Why did this system not work? Why do we have X technical constraint in our guidebook? 
 - What is the exact structure of the guidebook?
   - How distributed is it?
-    - Assimilation is starting to use a {key uncertainties, constraints, desired properties} system for its distributed guidebook. What should we steal from this, and how?
-      - Should we add "tolerances" to this little framework?
   - In addition to the checklists and FAQ, what exactly does it hold?
-  - How is system metadata stored?
+  - How is system metadata stored, and what should that metadata contain?
     - Desired properties
     - Required properties
     - Constraints
@@ -49,7 +56,7 @@
     - Goals
     - Uncertainties by system?
   - Should we split "desired properties" into "required properties" and "desired properties", or are "required properties" better fit under constraints?
-  - Desired properties:
+  - The guidebook should be able to hold:
     - Metadata for individual systems
     - **Guides:** lists of stuff, similar to what we use for static analysis. This includes things like code best practice, but also things like the fop balance guidelines (4:1 health:essence, essence/turn = prof, etc.)
     - Sections for less structured information (FAQs, meeting minutes, discussion logs, role assignments)
