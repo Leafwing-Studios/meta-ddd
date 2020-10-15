@@ -78,7 +78,7 @@ The **desired properties** of a system are properties that would be nice to have
 ## Tolerances
 *If you can't make it perfect, at least make it adjustable*
 
-**Tolerances** are all about how the system interacts with systems (or the world) outside of it. The term comes from engineering, where it is defined as "[the] allowable amount of variation in a specified quantity, especially in the dimensions of a machine or part." In short, tolerances list what variations (in the rest of the project) are acceptable, and which ones are not. As mentioned, there is some overlap between categories, and some tolerances may be defined in the required properties, indicating that the system must be tolerant to certain conditions.
+**Tolerances** are all about how robust the system is to changes around it. The term comes from engineering, where it is defined as "[the] allowable amount of variation in a specified quantity, especially in the dimensions of a machine or part." In short, tolerances list what variations (in the rest of the project) are acceptable, and which ones are not. As mentioned, there is some overlap between categories, and some tolerances may be defined in the required properties, indicating that the system must be tolerant to certain conditions.
 
 Some useful questions when trying to find tolerances of a system: 
 - What assumptions does this system make about the rest of the project's structure?
@@ -98,3 +98,29 @@ Some useful questions when trying to find tolerances of a system:
 - Changing `experiencePerLevel` field adjusts the overall pacing for character advancement, without any other changes needed. `experiencePerLevel` can accept any value between 1 and `UNSIGNED_INT_MAX`, inclusive.
 
 </div>
+
+### Metadata
+Metadata for the metadata documentation system
+
+#### Key Uncertainties
+- What additional metadata do proposals need? (Special tasks or Refreshes called for on acceptance, Help needed, Justifications?, others?)
+- Often, when writing out key uncertainties, they have a few obvious paths forward to investigate. How should these paths be documented? (In key uncertainties in parenthesis, on the proposal's stub)
+- Should key uncertainties have UUIDs for reference in external systems (and in proposals)? How would we go about this scalably?
+- How do we ensure visibility for inherited properties?
+
+#### Design Constraints
+- Cannot require an external system
+
+#### Required Properties
+- Must be able to easily list per system, and globally
+- Must be able to contain all design information that the team may need to reference back to
+
+#### Desired Properties
+- Shorter is better. Remember, low overhead
+- Same framework for global and system-specific metadata
+
+#### Tolerances
+- Does not require rigorously defined differences between metadata categories
+- Assumes expansion/detraction from the metadata fields list will be infrequent (as it is a costly operation)
+- Works with systems at nearly any level of abstraction
+- A system and its metadata can be defined in either order
