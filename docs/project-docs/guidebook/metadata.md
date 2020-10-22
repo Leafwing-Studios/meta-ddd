@@ -7,20 +7,24 @@ The **metadata** of a system or project is the design information that describes
 - **what things would be "nice to have"** for the system
 - **how robust the system is to changes around it**
 
-Every system has associated metadata, which should be stored alongside the system's **definition.** Ideally, these should be in the same file. Additionally, there is some metadata that is stored *globally*. This is for things that reach across the whole project, such as key uncertainties about systems that haven't been made yet, or the projects overall goals. Global metadata is typically stored in the Guidebook, but it doesn't have to be.
+Every system has associated metadata, which should be stored alongside the system's **definition.** Ideally, these should be in the same file. Additionally, there is some metadata that is stored *globally*. This is for things that reach across the whole project, such as key uncertainties about systems that haven't been made yet, or the projects overall goals. Metadata generally functions and "looks" the same whether it is global or not, but the two locations operate on a different level of abstraction. Global metadata is typically stored in the Guidebook, but it doesn't have to be.
+
+An important distinction is that metadata generally does not dictate precisely how a system works, but how the system *should* work. It defines properties and goals that the system ought fill, but it doesn't specify an exact design to fill those goals. That work comes in [writing proposals](/link).
 
 Naturally, there is some overlap between the various metadata fields. This is ok, and crew members should "go with their gut" when sorting something into a metadata field, as the system is tolerant to small ambiguities in metadata classification.
 
 The metadata framework is as follows:
 
 ## Key Uncertainties
-*We should figure this out*
+*What do we still need to figure out?*
 
 **Key uncertainties** are open questions, problems, and requirements that have yet to be addressed. Notably, this is *not* a list of tasks to be completed. The key uncertainties are for issues that need to be discussed. The team refers back to this list(s) when determining what to write proposals for, and what to discuss during design meetings.
 
-The global key uncertainties generally include functionality that needs to be designed, potential avenues for improvement, open questions about architecture, and so on.
-
-A system's key uncertainties generally include smaller bugs in the system, holes in the system that need to be filled, technical unknowns, and so on.
+Unlike other metadata fields, key uncertainties look a little different depending on whether they are part of the global key uncertainties, or a system's key uncertainties.
+Location | What do the key uncertainties look like?
+--- | ---
+Global | Functionality that needs to be designed, potential avenues for improvement, open questions about architecture, etc.
+System | Smaller bugs in the system, holes in the system that need to be filled, technical unknowns, etc.
 
 <div class="infobox">
 
@@ -49,11 +53,9 @@ A system's key uncertainties generally include smaller bugs in the system, holes
 </div>
 
 ## Required Properties
-*Subtitle*
+*What we need it to do*
 
-The **required properties** of a system are, simply, the things that the system must be able to do. These are, in some sense, the opposite of the design constraints.
-
-The global required properties generally include the overall function of the whole project. These can be thought of as the end goals for what this project should accomplish.
+The **required properties** of a system are, simply, the things that the system must be able to do. These are, in some sense, the opposite of the design constraints. These can sometimes be thought of as the goals or function of the system.
 
 <div class="infobox">
 
@@ -65,7 +67,7 @@ The global required properties generally include the overall function of the who
 </div>
 
 ## Desired Properties
-*Subtitle*
+*What we want it to do*
 
 The **desired properties** of a system are properties that would be nice to have, but are not required. This generally includes optimization criteria, additional non-essential functionality, and any other subjective preferences on how the system should be put together. The only difference between required and desired properties is that desired properties are flexible, but required properties are not. Some project opt to store these properties in a single "properties" metadata field, and then tag each one as "required" or "desired". 
 
