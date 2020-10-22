@@ -39,3 +39,4 @@
   - We need a system to link proposals to uncertainties
   - Some key uncertainties are of the form "should we do [thing]?". How do we handle proposals which simply say "no, we should not"
 - We need a proposal status between "accepted" and "fully written and all the additional steps have been followed"
+- Many problems often start with some non-trivial requirements gathering. Should we have a system for this?
