@@ -1,10 +1,11 @@
 # Key Uncertainties
+
 - Pull request review
   - Who reviews normal team pull requests? (Keeper, Sage, Scribe, literally anyone)
   - Who reviews pull requests for subassemblies coming into a larger branch/assembly?
   - Who reviews pull requests for systems/assemblies coming into master?
 - What is the exact framework for test documentation?
-- What is the framework for the issue tracker? 
+- What is the framework for the issue tracker?
   - What information does it need to have?
   - How does it integrate with system metadata?
 - Does the section on team structure need an example?
@@ -17,6 +18,7 @@
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
 - System for performing aftercare (to help with difficult design discussions). Do we even need this?
+  - Do we want safewords?
 - What is the expected audience we are writing this guide for? Other software engineers? Business people? Laypeople?
 - Somewhere we need to make clear that a **project** contains one or more **teams** which contain several **crew members** and other roles
 - In a multi-team project, which team is responsible for guidebook updates that affect everyone (such as changes to the code style guide)
