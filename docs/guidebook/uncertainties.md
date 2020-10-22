@@ -1,10 +1,11 @@
 # Key Uncertainties
+
 - Pull request review
   - Who reviews normal team pull requests? (Keeper, Sage, Scribe, literally anyone)
   - Who reviews pull requests for subassemblies coming into a larger branch/assembly?
   - Who reviews pull requests for systems/assemblies coming into master?
 - What is the exact framework for test documentation?
-- What is the framework for the issue tracker? 
+- What is the framework for the issue tracker?
   - What information does it need to have?
   - How does it integrate with system metadata?
 - Does the section on team structure need an example?
@@ -17,6 +18,7 @@
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
 - System for performing aftercare (to help with difficult design discussions). Do we even need this?
+  - Do we want safewords?
 - What is the expected audience we are writing this guide for? Other software engineers? Business people? Laypeople?
 - Somewhere we need to make clear that a **project** contains one or more **teams** which contain several **crew members** and other roles
 - In a multi-team project, which team is responsible for guidebook updates that affect everyone (such as changes to the code style guide)
@@ -28,36 +30,13 @@
 - Projects will occasionally call in freelance work, because of skill holes in their team. What framework should we provide for this? Should we provide any?
 - Should we have a mascot? Like the rust crab
 - Currently, we have 3 "refresh-like" actions (Calling a refresh, the "meta-refresh", and the check-in). How can we better unify these systems?
-- What additional metadata do proposals need? (Special tasks or Refreshes called for on acceptance, Help needed, Justifications?, others?)
 - We need a system to have the Librarian/Scribe/Someone else(?) review the documentation and clean it up.
-- Some key uncertanties are of the form "should we do [thing]?". How do we handle proposals which simly say "no, we should not"
-- Often, when writiing out key uncertanties, they have a few obvious paths forward to investigate. How should these paths be documented? (In key uncertanties in parenthesis, on the proposal's stub)
 - Should the automation section be part of the principles, or should it be standalone?
   - Should include that if you automate testing and data analysis tools, and open them to the team, you don't need the overhead of data scientists and manager approval to run these tests (only to spit out reports that most people don't even understand).
 - We should have a place in the DDD system where teams can define their internal reserved words/jargon (ex: "system metadata", "closed loop", etc.)
-- We need some kind of workflow for when someone has an idea that might improve a system, but that isn't inherently tied to a problem or question in the key uncertanties. (Make a "should we..." uncertainty, and then make a proposal for it, Make a proposal without a related uncertainty)
-- We need a system to link proposals to uncertanties
+- Weirdness with key uncertainties system
+  - We need some kind of workflow for when someone has an idea that might improve a system, but that isn't inherently tied to a problem or question in the key uncertainties. (Make a "should we..." uncertainty, and then make a proposal for it, Make a proposal without a related uncertainty)
+  - We need a system to link proposals to uncertainties
+  - Some key uncertainties are of the form "should we do [thing]?". How do we handle proposals which simply say "no, we should not"
+- We need a proposal status between "accepted" and "fully written and all the additional steps have been followed"
 - Many problems often start with some non-trivial requirements gathering. Should we have a system for this?
-
-## Uncertainties About The Guidebook Itself
-
-- Should key uncertainties have UUIDs for reference in external systems? How would we go about this scalably?
-- We need a "I have a piece of information, where does it go?" section. Perhaps the is/ought divide is a useful divider here?
-  - Documentation contains "is" statements. What is this system, how does it work, how would it work if things were different?
-  - Guidebook contains "ought" statements. What do we want this to be? What goals are we trying to fulfil? What things are we unwilling to accept?
-  - The test documentation contains tests and failures. While the documentation and guidebook primarily contain the "what", the test documentation contains the "why" (and sometimes "how"). Why did this system not work? Why do we have X technical constraint in our guidebook? 
-- What is the exact structure of the guidebook?
-  - How distributed is it?
-  - In addition to the checklists and FAQ, what exactly does it hold?
-  - How is system metadata stored, and what should that metadata contain?
-    - Desired properties
-    - Required properties
-    - Constraints
-    - Tolerances
-    - Goals
-    - Uncertainties by system?
-  - Should we split "desired properties" into "required properties" and "desired properties", or are "required properties" better fit under constraints?
-  - The guidebook should be able to hold:
-    - Metadata for individual systems
-    - **Guides:** lists of stuff, similar to what we use for static analysis. This includes things like code best practice, but also things like the fop balance guidelines (4:1 health:essence, essence/turn = prof, etc.)
-    - Sections for less structured information (FAQs, meeting minutes, discussion logs, role assignments)
