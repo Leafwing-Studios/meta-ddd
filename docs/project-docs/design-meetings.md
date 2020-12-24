@@ -59,3 +59,17 @@ During design meetings any team member, at any time, may make any of the followi
   - New properties or constraints have been added to the Guidebook that older systems may not be following
   - An active system has been changed, and its [entangled systems](/) may be affected
   - A long time has passed since an older system has been looked at by anyone
+
+### Metadata
+
+#### Constraints
+
+- TMP
+
+#### Tolerances
+
+- TMP
+
+#### Uncertainties
+
+- TMP

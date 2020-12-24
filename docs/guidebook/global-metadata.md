@@ -7,14 +7,6 @@
 - The system should tolerate teams from 1 member to a few hundred
 
 ## Uncertainties
-- Pull request review
-  - Who reviews normal team pull requests? (Keeper, Sage, Scribe, literally anyone)
-  - Who reviews pull requests for subassemblies coming into a larger branch/assembly?
-  - Who reviews pull requests for systems/assemblies coming into master?
-- What is the exact framework for test documentation?
-- What is the framework for the issue tracker?
-  - What information does it need to have?
-  - How does it integrate with system metadata?
 - Does the section on team structure need an example?
   - Should that be inline, or in the supplemental repo?
 - The team structure section isn't very clear that DDD teams are autonomous and don't need or have traditional management oversight

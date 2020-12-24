@@ -26,3 +26,20 @@ In code review, the documentation is reviewed as closely as the as the code is. 
 - Follow the code review guide from the project's guidebook
 - Code and documentation must adhere to the guides in the guidebook
 - Overrides are talked about in the guidebook section
+
+### Metadata
+
+#### Constraints
+
+- TMP
+
+#### Tolerances
+
+- TMP
+
+#### Uncertainties
+
+- Pull request review
+  - Who reviews normal team pull requests? (Keeper, Sage, Scribe, literally anyone)
+  - Who reviews pull requests for subassemblies coming into a larger branch/assembly?
+  - Who reviews pull requests for systems/assemblies coming into master?

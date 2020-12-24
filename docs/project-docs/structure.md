@@ -67,3 +67,19 @@ The framework as a whole must be able to handle:
 Instead of collecting the whole guidebook in one place, the guidebook may instead by **distributed.** Assimilation does this. Constraints, criteria, and key uncertainties are stored in the individual pages of their relevant systems, instead of a single place for all gudies and information. This has advantages (faster lookup) and disadvantages.
 
 </div>
+
+### Metadata
+
+#### Constraints
+
+- TMP
+
+#### Tolerances
+
+- TMP
+
+#### Uncertainties
+
+- What is the framework for the issue tracker?
+  - What information does it need to have?
+  - How does it integrate with system metadata?
