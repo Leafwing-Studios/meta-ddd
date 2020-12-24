@@ -7,6 +7,8 @@
 - The system should tolerate teams from 1 member to a few hundred
 
 ## Uncertainties
+- It is natural to want both "user-facing" documentation, and internal documentation for the project. How do we manage these two use cases?
+- How do we handle introduction chapters? These are really useful for clarity, but mean documentation duplication. Furthermore, how should metadata be handled across an explanation tree, where systems are talked about in general in the intro, then in specific in their own pages?
 - Does the section on team structure need an example?
   - Should that be inline, or in the supplemental repo?
 - The team structure section isn't very clear that DDD teams are autonomous and don't need or have traditional management oversight
