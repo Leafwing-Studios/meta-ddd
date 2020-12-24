@@ -7,3 +7,20 @@ If a project is large enough to need more than about 6 people, the DDD project i
 While a DDD team does not need to know everything, they typically have a much broader knowledge base than traditional software development teams. Unlike a traditional structure where stakeholders hand down preferences to the engineers, in DDD, **everyone is at the table, and everyone has equal say.** This means that the business people and the engineers and the finance people and whoever else must take part in the development process. This is one of the ways DDD catches problems before they start: no one person can know every potential problem or limitation, so people from all relevant domains are included to give information and ideas. Whenever there is something the team does not know, they may [Call for expertise](/) or [Order a lab test](/) to resolve the uncertainty.
 
 This may seem awfully lofty and optimistic, but with the right structure and mentality it is well within reach. We will discuss this in part in the next section.
+
+### Metadata
+
+#### Constraints
+
+- TMP
+
+#### Tolerances
+
+- TMP
+
+#### Uncertainties
+
+- Does this section need an example?
+  - Should that be inline, in its own page, or in the supplemental repo?
+- We need to make clear that DDD teams are autonomous and don't need traditional management oversight
+- Somewhere we need to make clear that a **project** contains one or more **teams** which contain several **crew members** and other roles
