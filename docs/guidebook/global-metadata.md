@@ -9,17 +9,13 @@
 ## Uncertainties
 - It is natural to want both "user-facing" documentation, and internal documentation for the project. How do we manage these two use cases?
 - How do we handle introduction chapters? These are really useful for clarity, but mean documentation duplication. Furthermore, how should metadata be handled across an explanation tree, where systems are talked about in general in the intro, then in specific in their own pages?
-- The team structure section isn't very clear that DDD teams are autonomous and don't need or have traditional management oversight
 - We want to communicate that traditional management structures are usually a lot of overhead for little benefit
-- Are there any other Brass roles we should define?
-  - Battlemaster equivalent? (Since we have the Quartermaster)
 - Use transparency to remove the need for recursive "whip-cracking" behavior. (Many companies do this to ensure Work Is Done:tm:.) How to make this clear?
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
 - System for performing aftercare (to help with difficult design discussions). Do we even need this?
   - Do we want safewords?
 - What is the expected audience we are writing this guide for? Other software engineers? Business people? Laypeople?
-- Somewhere we need to make clear that a **project** contains one or more **teams** which contain several **crew members** and other roles
 - In a multi-team project, which team is responsible for guidebook updates that affect everyone (such as changes to the code style guide)
   - Handled at the check-in?
   - Handled by the highest team?
