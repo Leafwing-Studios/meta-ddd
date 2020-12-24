@@ -1,26 +1,21 @@
-# Key Uncertainties
+# Global Metadata
 
-- Pull request review
-  - Who reviews normal team pull requests? (Keeper, Sage, Scribe, literally anyone)
-  - Who reviews pull requests for subassemblies coming into a larger branch/assembly?
-  - Who reviews pull requests for systems/assemblies coming into master?
-- What is the exact framework for test documentation?
-- What is the framework for the issue tracker?
-  - What information does it need to have?
-  - How does it integrate with system metadata?
-- Does the section on team structure need an example?
-  - Should that be inline, or in the supplemental repo?
-- The team structure section isn't very clear that DDD teams are autonomous and don't need or have traditional management oversight
+## Constraints
+- [desired] Minimize overhead
+
+## Tolerances
+- The system should tolerate teams from 1 member to a few hundred
+
+## Uncertainties
+- It is natural to want both "user-facing" documentation, and internal documentation for the project. How do we manage these two use cases?
+- How do we handle introduction chapters? These are really useful for clarity, but mean documentation duplication. Furthermore, how should metadata be handled across an explanation tree, where systems are talked about in general in the intro, then in specific in their own pages?
 - We want to communicate that traditional management structures are usually a lot of overhead for little benefit
-- Are there any other Brass roles we should define?
-  - Battlemaster equivalent? (Since we have the Quartermaster)
 - Use transparency to remove the need for recursive "whip-cracking" behavior. (Many companies do this to ensure Work Is Done:tm:.) How to make this clear?
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
 - System for performing aftercare (to help with difficult design discussions). Do we even need this?
   - Do we want safewords?
 - What is the expected audience we are writing this guide for? Other software engineers? Business people? Laypeople?
-- Somewhere we need to make clear that a **project** contains one or more **teams** which contain several **crew members** and other roles
 - In a multi-team project, which team is responsible for guidebook updates that affect everyone (such as changes to the code style guide)
   - Handled at the check-in?
   - Handled by the highest team?
@@ -28,7 +23,7 @@
   - Anyone can modify at any time?
 - Should we use the term "system worldbuilding" instead of metadata?
 - Projects will occasionally call in freelance work, because of skill holes in their team. What framework should we provide for this? Should we provide any?
-- Should we have a mascot? Like the rust crab
+- Should we have a mascot? Like ferris, the rust crab
 - Currently, we have 3 "refresh-like" actions (Calling a refresh, the "meta-refresh", and the check-in). How can we better unify these systems?
 - We need a system to have the Librarian/Scribe/Someone else(?) review the documentation and clean it up.
 - Should the automation section be part of the principles, or should it be standalone?

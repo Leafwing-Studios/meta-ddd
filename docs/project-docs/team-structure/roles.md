@@ -65,3 +65,18 @@ The crew is a team role. It contains all members who do not have any other roles
 - Attend meetings? This might not be worth putting
 - Escalate things up the ladder if you are stuck or think something is wrong
 - Ask questions of your sage and keeper when you need to
+
+### Metadata
+
+#### Constraints
+
+- TMP
+
+#### Tolerances
+
+- TMP
+
+#### Uncertainties
+
+- Are there any other Brass roles we should define?
+  - Battlemaster equivalent? (Since we have the Quartermaster)

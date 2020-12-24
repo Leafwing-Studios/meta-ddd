@@ -24,3 +24,17 @@ The Brass is has the following responsibilities. These have been talked about mu
 1. **Internal Maintenance:** Who should we hire or fire? Do we need new equipment? What's our system for keeping the office in shape and keeping resources accessible to employees?
 
 The Brass can be structured similar to a traditional management level, but it doesn't have to be as long as it can fulfill the requirements stated above. For example, the company could use a co-op structure for working, or use pure democratic voting for deciding these responsibilities. Additionally, it is quite common (and even recommended) that members of The Brass hold positions on DDD teams part time, allocating some of their time to Brass duties and some to development. This ensures a closer relationship between The Brass and the crew, and helps ensure Brass overhead is very light.
+
+### Metadata
+
+#### Constraints
+
+- TMP
+
+#### Tolerances
+
+- TMP
+
+#### Uncertainties
+
+- TMP
