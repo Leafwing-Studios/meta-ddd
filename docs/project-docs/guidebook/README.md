@@ -5,7 +5,7 @@ The **Guidebook** is a system in DDD.
 ### Metadata
 
 #### Constraints
-- Must be able to contain: [required]
+- [required] Must be able to contain:
   - Global metadata
   - Code review checklists (or some similar)
   - Code style guide
@@ -13,10 +13,10 @@ The **Guidebook** is a system in DDD.
   - Less structured information
     - Meeting minutes
     - Role assignments
-- Must be able to hold implementation-specific changes to the DDD formula. Ex: "Our team does things *this* way, which is not normal" [required]
-- Independent searching from the rest of the docs [expected]
-- Does not require an external system [expected]
-- Can contain: [optional]
+- [required] Must be able to hold implementation-specific changes to the DDD formula. Ex: "Our team does things *this* way, which is not normal"
+- [expected] Independent searching from the rest of the docs
+- [expected] Does not require an external system
+- [desired] Can contain:
   - System metadata
 
 #### Tolerances

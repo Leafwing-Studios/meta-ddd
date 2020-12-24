@@ -1,5 +1,12 @@
-# Key Uncertainties
+# Global Metadata
 
+## Constraints
+- [desired] Minimize overhead
+
+## Tolerances
+- The system should tolerate teams from 1 member to a few hundred
+
+## Uncertainties
 - Pull request review
   - Who reviews normal team pull requests? (Keeper, Sage, Scribe, literally anyone)
   - Who reviews pull requests for subassemblies coming into a larger branch/assembly?
@@ -28,7 +35,7 @@
   - Anyone can modify at any time?
 - Should we use the term "system worldbuilding" instead of metadata?
 - Projects will occasionally call in freelance work, because of skill holes in their team. What framework should we provide for this? Should we provide any?
-- Should we have a mascot? Like the rust crab
+- Should we have a mascot? Like ferris, the rust crab
 - Currently, we have 3 "refresh-like" actions (Calling a refresh, the "meta-refresh", and the check-in). How can we better unify these systems?
 - We need a system to have the Librarian/Scribe/Someone else(?) review the documentation and clean it up.
 - Should the automation section be part of the principles, or should it be standalone?
