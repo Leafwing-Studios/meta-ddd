@@ -27,11 +27,15 @@ In code review, the documentation is reviewed as closely as the as the code is. 
 - Code and documentation must adhere to the guides in the guidebook
 - Overrides are talked about in the guidebook section
 
+## Internal and External
+
+It is natural to want both internal documentation (that the team references and designs on) and external documentation (for others trying to use the thing you've built). The former contains detailed specs and metadata, but the latter is basically a public API definition. There is no tractable way to do this without having a lot of documentation duplication. These two must be cleanly split. We recommend writing the external documentation during or after the build phase of the project, once the project's structure and functionality are relatively static.
+
 ### Metadata
 
 #### Constraints
 
-- TMP
+- [desired] The dual documentation systems should link to each other
 
 #### Tolerances
 
@@ -43,3 +47,5 @@ In code review, the documentation is reviewed as closely as the as the code is. 
   - Who reviews normal team pull requests? (Keeper, Sage, Scribe, literally anyone)
   - Who reviews pull requests for subassemblies coming into a larger branch/assembly?
   - Who reviews pull requests for systems/assemblies coming into master?
+- The dual documentation system needs a way to link between the two
+- In the recursive case, the higher teams hand down an API specification to lower teams. This roughly mirrors what is needed for internal/external docs. Can we leverage this similarity?

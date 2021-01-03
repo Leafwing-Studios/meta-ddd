@@ -7,7 +7,6 @@
 - The system should tolerate teams from 1 member to a few hundred
 
 ## Uncertainties
-- It is natural to want both "user-facing" documentation, and internal documentation for the project. How do we manage these two use cases?
 - How do we handle introduction chapters? These are really useful for clarity, but mean documentation duplication. Furthermore, how should metadata be handled across an explanation tree, where systems are talked about in general in the intro, then in specific in their own pages?
 - We want to communicate that traditional management structures are usually a lot of overhead for little benefit
 - Use transparency to remove the need for recursive "whip-cracking" behavior. (Many companies do this to ensure Work Is Done:tm:.) How to make this clear?
