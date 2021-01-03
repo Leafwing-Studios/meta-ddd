@@ -119,3 +119,5 @@ Metadata for the metadata documentation system
 - Often, when writing out uncertainties, they have a few obvious paths forward to investigate. How should these paths be documented? (In uncertainties in parenthesis, on the proposal's stub)
 - Should uncertainties have UUIDs for reference in external systems (and in proposals)? How would we go about this scalably?
 - How do we ensure visibility for inherited properties?
+- Do tolerances contain the tolerances and assumptions of this system, or do they contain the stuff that the system gets for "free" from outside? Should we have both of these?
+- Should there be an explicit "goals" section of the metadata?
