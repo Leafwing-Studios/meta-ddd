@@ -7,7 +7,7 @@ For a project with only one team, this meeting is called and regularly scheduled
 1. The teams reviews guidebook analytics. Talk about the sections that are being the least used. Their value is called into question.
 1. Review guidebook overrides. Talk about which pieces have been overridden the most frequently. Their value is called into question.
 1. Propose new information for the guidebook at a project level. (When teams discover things that the whole project should include. These are submitted in advance, for everyone to read.)
-1. Open floor for any team member to complain about issues with the current process.
+1. Open floor for any team member to complain about issues with the current process. When doing so, members provide a problem that they have identified, and an optional proposed solution. 
 
 ### Metadata
 

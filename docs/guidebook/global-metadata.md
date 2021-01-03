@@ -1,20 +1,21 @@
 # Global Metadata
 
 ## Constraints
-- [desired] Minimize overhead
+- [expected] Build only what is necessary
+- [desired] DDD should induce minimal overhead on the development team
+- [desired] Prefer simple solutions over complex ones
+- [desired] Prefer modular systems over entangled ones
 
 ## Tolerances
-- The system should tolerate teams from 1 member to a few hundred
+- DDD should tolerate teams from 1 member to a few hundred
 
 ## Uncertainties
 - How do we handle introduction chapters? These are really useful for clarity, but mean documentation duplication. Furthermore, how should metadata be handled across an explanation tree, where systems are talked about in general in the intro, then in specific in their own pages?
-- We want to communicate that traditional management structures are usually a lot of overhead for little benefit
 - Use transparency to remove the need for recursive "whip-cracking" behavior. (Many companies do this to ensure Work Is Done:tm:.) How to make this clear?
   - VCS contains the past, key uncertainties contain the future
   - Issue tracking contains things that need to be done, but do not require discussion or debate. This includes both things that are already discussed, but need to be finished out, and things that are so small an simple to not merit discussion at all (like tiny bug fixes)
 - System for performing aftercare (to help with difficult design discussions). Do we even need this?
   - Do we want safewords?
-- What is the expected audience we are writing this guide for? Other software engineers? Business people? Laypeople?
 - In a multi-team project, which team is responsible for guidebook updates that affect everyone (such as changes to the code style guide)
   - Handled at the check-in?
   - Handled by the highest team?

@@ -4,9 +4,9 @@
 
 ## Phases and frequency
 
-DDD projects have 2 distinct phases: **prototyping** and **build.** During the prototyping phase, the teams are working on documentation, conducting small tests, and churning through proposals. Oce the documentation is well-defined and stable, the team enters the build phase, where the product is actually made, and code is written. 
+DDD projects have 2 distinct phases: **prototyping** and **build.** During the prototyping phase, the teams are working on documentation, conducting small tests, and churning through proposals. Once the documentation is well-defined and stable, the team enters the build phase, where the product is actually made, and code is written. 
 
-During prototyping, design meetings are frequent (about daily) and long (several hours, with short breaks). The team is working almost exclusively to develop the documentation, ensuring the system is functional before it is created. During this phase, the team acts as waves crashing into each other. Starting apart, working on proposals and ideas, then periodically crashing together: arguing and refining before retreating back to their own corners to prepare for the next crash. 
+During prototyping, design meetings are frequent (about daily) and long (several hours, with short breaks). The team is working almost exclusively to develop the documentation, ensuring the system is functional before it is created.
 
 During the build phase, design meetings need not be so much of the team's time. By this stage, the team should all trust that the documented system is sufficient and robust, and all that remains is actually finishing the thing. Design meetings should still be called regularly, to discuss issues discovered and any controversial implementation details. However, they can be much less frequent (about once a week) and a little shorter (about an hour). While design meetings during the build phase still require all participants, the non-engineers can expect to have more of their time allocated to other projects, as problems with construction are less likely to need their expertise.
 
